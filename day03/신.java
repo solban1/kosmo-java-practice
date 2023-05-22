@@ -1,6 +1,6 @@
 class 신 {
 	public static void main(String[] args) {
-		System.out.println("때는 어느 추운 겨울날.");
+		System.out.println("때는 어느 추운 겨울날.\n");
 
 		사장 바보사장 = new 사장("사장님");
 		바보사장.준비하다("팥");
