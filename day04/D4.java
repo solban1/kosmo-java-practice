@@ -1,9 +1,9 @@
 class D4 {
 	public static void main(String[] args) {
 		int var = 1;
-		//byte b1 = var;			// error: incompatible types: possible lossy conversion from int to byte
+		byte b1 = var;			// error: incompatible types: possible lossy conversion from int to byte
 	
-		int num = (int)2;			// OK
+		byte num = (int)2;			// OK
 
 		final int constant = 3;
 		byte b2 = constant;			// OK
