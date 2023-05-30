@@ -62,7 +62,7 @@ class RandomBox {
     }
 
     /**
-     * TreeMap을 활용하여 추첨
+     * TreeSet을 활용하여 추첨
      * 
      * @param count 추첨할 사람 수
      */
